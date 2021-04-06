@@ -41,3 +41,12 @@
 `git remote -v`
 
 查看当前所有远程地址别名
+
+## 更新代码到GitHub  
+```
+git init                  //初始化仓库  
+git add .(文件名)          //添加文件到本地  
+git commit -m "备注"       //添加文件描述信息  
+git pull origin master     //把本地仓库的变化连接到远程仓库master分支
+git push -u origin master  //把本地仓库的文件推送到远程仓库master分支
+```
