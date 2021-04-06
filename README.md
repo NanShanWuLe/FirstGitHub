@@ -50,3 +50,5 @@ git commit -m "备注"       //添加文件描述信息
 git pull origin master     //把本地仓库的变化连接到远程仓库master分支
 git push -u origin master  //把本地仓库的文件推送到远程仓库master分支
 ```
+## 小Tips  
+![Aaron Swartz](https://raw.githubusercontent.com/VeryBoredBoy/FirstGitHub/master/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202021-04-06%20234257.jpg)  
