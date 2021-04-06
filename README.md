@@ -50,5 +50,11 @@ git commit -m "备注"       //添加文件描述信息
 git pull origin master     //把本地仓库的变化连接到远程仓库master分支
 git push -u origin master  //把本地仓库的文件推送到远程仓库master分支
 ```
-## 小Tips  
-![Aaron Swartz]()  
+### 小Tips  
+<font color=rad>进入Please enter a commit message to explain why this merge is necessary</font>  
+1.按键盘字母 i 进入insert模式  
+2.修改最上面那行黄色合并信息,可以不修改  
+3.按键盘左上角"Esc"  
+4.输入":wq",注意是冒号+wq,按回车键即可  
+
+
