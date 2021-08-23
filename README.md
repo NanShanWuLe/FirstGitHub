@@ -57,9 +57,10 @@ git push -u origin master  //把本地仓库的文件推送到远程仓库master
 3.按键盘左上角"Esc"  
 4.输入":wq",注意是冒号+wq,按回车键即可  
 
-###xp Gerrit
+### xp Gerrit
 `git commit -s        //提交更新说明`
 格式为：
+```
 [ Modify       ] xpSettings
 [ Project      ] D55/D22/D21 | E28
 [ Module       ] XUIService
@@ -67,6 +68,7 @@ git push -u origin master  //把本地仓库的文件推送到远程仓库master
 [ Reference    ] http://zendao.xiaopeng.local/zentao/my-story.html
 [ Company      ] XiaoPeng SH
 [ Team         ] 国际化应用组
+```
 ```git log                           //查看提交日志
 git push origin HEAD:refs/for/xpdev  //正式提交代码 
 git pull --rebase                    //如果push失败，应先从gerrit上重新pull代码
