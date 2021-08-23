@@ -59,6 +59,7 @@ git push -u origin master  //把本地仓库的文件推送到远程仓库master
 
 ### xp Gerrit
 `git commit -s        //提交更新说明`
+
 格式为：
 ```
 [ Modify       ] xpSettings
