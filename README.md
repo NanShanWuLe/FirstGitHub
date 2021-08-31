@@ -42,6 +42,19 @@
 
 查看当前所有远程地址别名
 
+
+`git branch -r`
+
+查看远程端的branch,不带-r表示查看本地的branch
+
+`git checkout -b xpdev origin/xpdev`
+
+从远程下载branch分支下的代码 第一个xpdev表示存储的文件夹名称，第二个为远程branch的分支名称
+
+`git branch -D xxx`
+
+从本地删除xxx分支
+
 ## 更新代码到GitHub  
 ```
 git init                  //初始化仓库  
@@ -66,7 +79,7 @@ git push -u origin master  //把本地仓库的文件推送到远程仓库master
 [ Project      ] D55/D22/D21 | E28
 [ Module       ] XUIService
 [ Description  ] null
-[ Reference    ] http://zendao.xiaopeng.local/zentao/my-story.html
+[ Reference    ] http://
 [ Company      ] XiaoPeng SH
 [ Team         ] 国际化应用组
 ```
