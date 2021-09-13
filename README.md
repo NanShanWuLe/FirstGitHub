@@ -55,6 +55,14 @@
 
 从本地删除xxx分支
 
+`git checkout -b [branch name]`
+
+创建分支的同时切换到该分支上
+
+`git push origin [branch name]`
+
+将新分支推送到github上
+
 ## 更新代码到GitHub  
 ```
 git init                  //初始化仓库  
