@@ -63,6 +63,12 @@
 
 将新分支推送到github上
 
+```
+git reset --hard HEAD^    //回退到上个版本
+git reset --hard HEAD~3    //回退到前三次提交之前
+git reset --hard commit_id   //回退到指定log_id的版本 通过指令git log 可以查看相应id
+```
+
 ## 更新代码到GitHub  
 ```
 git init                  //初始化仓库  
