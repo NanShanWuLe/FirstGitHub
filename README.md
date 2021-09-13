@@ -78,6 +78,10 @@ git push -u origin master  //把本地仓库的文件推送到远程仓库master
 
 这个意思是把本地dev push到origin的dev -u表示同时建立关联，以后再推送到远程只需git push origin
 
+>git push 出现Everything up-to-date 解决方法
+因为你没有git add 和 git commit.或者是需要重新执行
+
+
 ### xp Gerrit
 `git commit -s        //提交更新说明`
 
