@@ -70,6 +70,12 @@ git push -u origin master  //把本地仓库的文件推送到远程仓库master
 3.按键盘左上角"Esc"  
 4.输入":wq",注意是冒号+wq,按回车键即可  
 
+![image](https://user-images.githubusercontent.com/48131905/133013129-6b7efb3a-df9f-4d91-b540-c1c1f5a9cded.png)
+问题为没有与远程服务器建立连接
+`git push  origin dev -u`
+
+这个意思是把本地dev push到origin的dev -u表示同时建立关联，以后再推送到远程只需git push origin
+
 ### xp Gerrit
 `git commit -s        //提交更新说明`
 
