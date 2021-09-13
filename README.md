@@ -71,6 +71,7 @@ git push -u origin master  //把本地仓库的文件推送到远程仓库master
 4.输入":wq",注意是冒号+wq,按回车键即可  
 
 > git push 出现 The current branch dev has no upstream branch.的问题
+
 ![image](https://user-images.githubusercontent.com/48131905/133013129-6b7efb3a-df9f-4d91-b540-c1c1f5a9cded.png)
 
 问题为没有与远程服务器建立连接
