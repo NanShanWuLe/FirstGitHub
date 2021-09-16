@@ -97,6 +97,11 @@ git push -u origin master  //把本地仓库的文件推送到远程仓库master
 
 因为你没有git add 和 git commit.或者是需要重新执行
 
+> git push 出现黄色提示
+![image](https://user-images.githubusercontent.com/48131905/133574640-2992e455-2161-4720-9c21-2a718d606e83.png)
+
+该问题为远程服务器的代码与本地代码不同步，先pull服务器的代码后在push
+`git pull origin master`
 
 ### xp Gerrit
 `git commit -s        //提交更新说明`
