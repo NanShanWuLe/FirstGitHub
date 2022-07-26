@@ -63,6 +63,11 @@
 
 创建分支的同时切换到该分支上
 
+
+`git clean -fd`
+
+删除untracked文件,连同目录一起删除
+
 `git push origin [branch name]`
 
 将新分支推送到github上
