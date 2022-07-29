@@ -1,81 +1,98 @@
 # git基本操作
 ## 从GitHub上克隆代码
 
-`git clone [url]`
+`git clone [url]         //从GitHub或者gitee上克隆代码`
 
-从GitHub或者gitee上克隆代码
 
-`git pull`
 
-从GitHub更新克隆的代码
+`git pull                //从GitHub更新克隆的代码`
+
+
 
 ## 本地操作GitHub
-`git init`
-
-在对应的文件夹git init创建git库
-
-`git status`
-
-查看项目的当前状态。记住每次修改项目前后最好都查看一下当前状态，可以避免不必要的冲突
-
-`git branch -m oldName newName`
-
-修改分支名
-
-`git add .`
-
-将整个项目都存入缓存区
-
-`git add hello.js`
-
-将某个文件添加到缓存区
-
-`git commit -m '修改了readme.md文件'`
-
-为本次提交项目的描述信息，但实际上是“记录缓存区的快照”，方便开发失误时能够“回退”
-
-`git push`
-
-提交到git仓库的当前分支，如果这一步能够正常执行，通常意味着您的项目已经成功提交
-
-`git remote add [别名] [远程地址]`
-
-给远程库的地址起别名
-
-`git remote -v`
-
-查看当前所有远程地址别名
+`git init                //在对应的文件夹git init创建git库`
 
 
-`git branch -r`
-
-查看远程端的branch,不带-r表示查看本地的branch
-
-`git checkout -b xpdev origin/xpdev`
-
-从远程下载branch分支下的代码 第一个xpdev表示存储的文件夹名称，第二个为远程branch的分支名称
-
-`git branch -D xxx`
-
-从本地删除xxx分支
-
-`git checkout -b [branch name]`
-
-创建分支的同时切换到该分支上
+`git status              //查看项目的当前状态。记住每次修改项目前后最好都查看一下当前状态，可以避免不必要的冲突`
 
 
-`git clean -fd`
 
-删除untracked文件,连同目录一起删除
+`git branch -m oldName newName               //修改分支名`
 
-`git push origin [branch name]`
 
-将新分支推送到github上
+
+`git add .               //将整个项目都存入缓存区`
+
+
+
+`git add hello.js        //将某个文件添加到缓存区`
+
+
+
+`git commit -m '修改了readme.md文件'          //为本次提交项目的描述信息，但实际上是“记录缓存区的快照”，方便开发失误时能够“回退”`
+
+
+
+`git push origin "远程分支"                   //提交到git仓库的当前分支，如果这一步能够正常执行，通常意味着您的项目已经成功提交`
+
+
+
+`git remote add [别名] [远程地址]             //给远程库的地址起别名`
+
+
+
+`git remote -v                  //查看当前所有远程地址别名`
+
+
+`git branch -r                  //查看远程端的branch,不带-r表示查看本地的branch`
+
+
+`git checkout -b xpdev origin/xpdev         //从远程下载branch分支下的代码 第一个xpdev表示存储的文件夹名称，第二个为远程branch的分支名称`
+
+
+`git branch -D xxx              //从本地删除xxx分支`
+
+
+`git checkout -b [branch name]              //创建分支的同时切换到该分支上`
+
+
+`git clean -fd                 //删除untracked文件,连同目录一起删除`
+
+
+`git push origin [branch name]              //将新分支推送到github上`
+
 
 ```
 git reset --hard HEAD^    //回退到上个版本
 git reset --hard HEAD~3    //回退到前三次提交之前
 git reset --hard commit_id   //回退到指定log_id的版本 通过指令git log 可以查看相应id
+```
+
+
+```
+//撤销git reset --hard操作
+
+git reflog              //查看所有的HEAD历史记录
+git reset --hard xxxxxx   //回溯到相应版本
+```
+
+```
+//commit之后，需要撤销本次commit
+git commit --soft HEAD^   //仅撤回commit，代码没有改动
+
+//参数的表示
+--mixed
+不删除工作空间改动代码，撤销commit和add . 操作
+
+--soft
+不删除工作空间改动代码，撤销commit,不撤销add . 操作
+
+--hard
+删除工作空间改动代码，撤销commit，撤销add . ，恢复到上次commit的状态
+```
+
+```
+git commit --amend     //commit编写错误，需要修改commit，并直接进入vim编辑器
 ```
 
 ## 更新代码到GitHub  
