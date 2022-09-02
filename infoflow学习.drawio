@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T02:34:43.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3k0qPhwlbyR2ZX4UZWfB" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T03:51:56.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zgyZO0UWz-KUzINZM9ek" version="20.2.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="865" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -262,6 +262,9 @@
         </mxCell>
         <mxCell id="REH5YeQ6EN0uK2ZwVJsP-32" value="App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REH5YeQ6EN0uK2ZwVJsP-34" value="同一车型的高中低配" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1015" width="130" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
