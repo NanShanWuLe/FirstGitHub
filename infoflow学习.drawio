@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T07:27:33.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5f8wotAlIde0vIb_7ErZ" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T11:27:42.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XePfRTP99IdUnwgohZjy" version="20.2.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1093" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -368,6 +368,32 @@
         </mxCell>
         <mxCell id="REH5YeQ6EN0uK2ZwVJsP-82" value="App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="485" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REH5YeQ6EN0uK2ZwVJsP-87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="REH5YeQ6EN0uK2ZwVJsP-84" target="REH5YeQ6EN0uK2ZwVJsP-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REH5YeQ6EN0uK2ZwVJsP-90" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="REH5YeQ6EN0uK2ZwVJsP-84" target="REH5YeQ6EN0uK2ZwVJsP-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REH5YeQ6EN0uK2ZwVJsP-84" value="FeatureHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REH5YeQ6EN0uK2ZwVJsP-91" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="REH5YeQ6EN0uK2ZwVJsP-85" target="REH5YeQ6EN0uK2ZwVJsP-89">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="2420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REH5YeQ6EN0uK2ZwVJsP-85" value="CarHelper" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REH5YeQ6EN0uK2ZwVJsP-92" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="REH5YeQ6EN0uK2ZwVJsP-88" target="REH5YeQ6EN0uK2ZwVJsP-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REH5YeQ6EN0uK2ZwVJsP-88" value="获取布局垂直水平方向" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2320" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="REH5YeQ6EN0uK2ZwVJsP-89" value="业务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="2460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
