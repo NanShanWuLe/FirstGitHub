@@ -78,7 +78,7 @@ git reset --hard xxxxxx   //回溯到相应版本
 
 ```
 //commit之后，需要撤销本次commit
-git commit --soft HEAD^   //仅撤回commit，代码没有改动
+git reset --soft HEAD^   //仅撤回commit，代码没有改动
 
 //参数的表示
 --mixed
