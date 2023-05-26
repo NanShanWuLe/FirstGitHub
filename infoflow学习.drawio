@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-26T12:18:01.976Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="ALHuyVQdN39icv0_HoOv" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-26T13:29:04.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="c6A3Y9BDXsp7GzEdh3x_" version="21.2.9" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="2295" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2247" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -991,26 +991,14 @@
         <mxCell id="_uBocn2pOsCekAcREmua-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-32" target="_uBocn2pOsCekAcREmua-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_uBocn2pOsCekAcREmua-32" value="等待迎宾动画设置SettingsProvider" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_uBocn2pOsCekAcREmua-32" value="等待bootAnimation从0变为1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1590" y="4120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_uBocn2pOsCekAcREmua-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-34" target="_uBocn2pOsCekAcREmua-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_uBocn2pOsCekAcREmua-34" value="下电" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="3640" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_uBocn2pOsCekAcREmua-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-35" target="_uBocn2pOsCekAcREmua-37">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_uBocn2pOsCekAcREmua-35" value="添加遮罩" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="3740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-37" target="_uBocn2pOsCekAcREmua-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-37" value="上电" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="3840" width="120" height="60" as="geometry" />
+          <mxGeometry x="1931.75" y="3640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-46" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-43" target="_uBocn2pOsCekAcREmua-45">
           <mxGeometry relative="1" as="geometry">
@@ -1026,51 +1014,49 @@
         <mxCell id="_uBocn2pOsCekAcREmua-45" value="播放动画" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1590.5" y="4320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_uBocn2pOsCekAcREmua-50" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-47" target="_uBocn2pOsCekAcREmua-49">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_uBocn2pOsCekAcREmua-50" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-47" target="_uBocn2pOsCekAcREmua-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="4100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1840" y="3780" />
+              <mxPoint x="1840" y="4355" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-52" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-47" target="_uBocn2pOsCekAcREmua-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-47" value="是否播放迎宾动画" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1890" y="3940" width="180" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_uBocn2pOsCekAcREmua-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-49" target="_uBocn2pOsCekAcREmua-61">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1990" y="4220" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_uBocn2pOsCekAcREmua-49" value="迎宾动画结束后&lt;br&gt;判断自检的SettingsProvider" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1828.25" y="4090" width="120" height="60" as="geometry" />
+          <mxGeometry x="1901.75" y="3740" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-51" target="_uBocn2pOsCekAcREmua-61">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1950" y="4200" as="targetPoint" />
+            <mxPoint x="1961.75" y="4000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-51" value="判断自检的SettingsProvider" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="4090" width="120" height="60" as="geometry" />
+          <mxGeometry x="1932" y="3880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-58" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-56" target="_uBocn2pOsCekAcREmua-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-56" value="是否超时" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1907.5" y="4410" width="145" height="70" as="geometry" />
+          <mxGeometry x="1919.25" y="4210" width="145" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-57" value="结束动画" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="4525" width="120" height="60" as="geometry" />
+          <mxGeometry x="1931.75" y="4325" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-61" target="_uBocn2pOsCekAcREmua-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-61" value="设置迎宾动画SettingsProvider" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="4220" width="120" height="60" as="geometry" />
+          <mxGeometry x="1931.75" y="4020" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_uBocn2pOsCekAcREmua-64" target="_uBocn2pOsCekAcREmua-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_uBocn2pOsCekAcREmua-64" value="等待自检动画设置SettingsProvider" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="4320" width="120" height="60" as="geometry" />
+          <mxGeometry x="1931.75" y="4120" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
